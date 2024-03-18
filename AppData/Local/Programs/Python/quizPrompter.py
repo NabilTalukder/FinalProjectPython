@@ -3,7 +3,7 @@ import socket
 
 
 #initialise API key and client
-OPENAI_API_KEY = open("OPENAI_API_KEY", "r").read()
+OPENAI_API_KEY = open("C:\\Users\\Nabil\\AppData\\Local\\Programs\\Python\\OPENAI_API_KEY.txt", "r").read()
 client = OpenAI(api_key = OPENAI_API_KEY)
 
 def generateQuiz(qgi):
